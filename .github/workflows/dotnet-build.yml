@@ -1,0 +1,11 @@
+# Arquivo de workflow do GitHub Actions para build .NET
+name: Build .NET
+
+on:
+  push:
+    branches:
+      - '**'
+  schedule:
+    - cron: '0 * * * *'
+
+# Adicione os jobs abaixo conforme necessário
